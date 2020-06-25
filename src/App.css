@@ -139,7 +139,7 @@ input[type = 'number']{
 
 .container{
   margin: 30px auto;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 h1{
@@ -262,7 +262,7 @@ input[type = 'number']{
 
 .container{
   margin: 30px auto;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 h1{
@@ -385,7 +385,7 @@ input[type = 'number']{
 
 .container{
   margin: 30px auto;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 h1{
@@ -508,7 +508,7 @@ input[type = 'number']{
 
 .container{
   margin: 30px auto;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 h1{
