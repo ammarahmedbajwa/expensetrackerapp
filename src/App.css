@@ -10,6 +10,7 @@ body{
   margin: 0;
   font-family: 'lato', sans-serif;
   color: white;
+  min-width: 100vw;
 }
 
 .container{
