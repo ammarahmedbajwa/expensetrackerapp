@@ -583,7 +583,7 @@ h4{
   border-right: 5px solid red;
 }
 
-.list li:hover {
+.list li:hover .delete-btn {
   opacity: 0.95;
 }
 
@@ -613,5 +613,21 @@ input[type = 'number']{
   margin: 10px 0 30px;
   font-size: 16px;
 
+}
+
+.delete-btn{
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }}
 
