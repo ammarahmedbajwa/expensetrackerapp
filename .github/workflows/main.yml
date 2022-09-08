@@ -40,4 +40,4 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: run surge 
-      run: surge ./build expensetrackerwb.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build neighbourhood-cars.surge.sh --token ${{secrets.SURGE__TOKEN}}
